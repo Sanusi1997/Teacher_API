@@ -1,0 +1,22 @@
+get http://localhost:3000/teachers
+
+###
+
+post http://localhost:3000/teachers
+Content-Type: application/json
+
+{
+    "firstName": "Sanusi",
+    "lastName": "Hameed",
+    "department": "Science"
+}
+
+###
+post http://localhost:3000/teachers
+Content-Type: application/json
+
+{
+    "firstName": "Williams",
+    "lastName": "John",
+    "department": "Arts"
+}
